@@ -14,7 +14,7 @@ function App() {
   const handleCategorySelect = (category) => {
     setSelectedCategory(category);
   };
-
+// handle taskFormSubmit
   const handleTaskFormSubmit = (newTask) => {
     setTasks([...tasks, newTask]);
   };
